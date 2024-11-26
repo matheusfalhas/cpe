@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/tito/unb/cpe/codes",
-      "program": "/home/tito/unb/cpe/codes/build/Debug/outDebug",
+      "cwd": "/home/tito/unb/cpe/lista4_github/constante",
+      "program": "/home/tito/unb/cpe/lista4_github/constante/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
