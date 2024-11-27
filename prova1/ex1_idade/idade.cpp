@@ -15,9 +15,6 @@ int main(){
         cout << "ELEITOR: VOTO OBRIGATORIO\n";
     }else if(i < 16 && i >= 0){
         cout << "NÃO ELEITOR\n";
-    }else{
-        cout << "digite uma idade valida\n";
-    }
     }
     return 0;
 }
