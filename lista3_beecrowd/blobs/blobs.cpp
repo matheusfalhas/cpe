@@ -4,22 +4,20 @@
 #include <iomanip>
 using namespace std;
 int main() {
-    int m, n;
+    int m, n, count;
     float kg;
-    cout << "numero de casos de teste:\n";
     cin >> n;
     if ((1 <= n && n <= 1000)){
         for(m = 0; m < n; m++){
-            cout << "comida blobs:\n";
             cin >> kg;
-            if(kg > 1){
-                while(kg > 1){
-                (kg / 2);
+            if(kg > 2){
+                for(count = 0; kg > 1; count++){
+                    kg = kg / 2;
                 }
-            }else if (n <= 1 && n > 0){
-                cout << "1 dia\n";
+            cout << fixed << setprecision(2) << count << " dias\n";
+            }else if (kg <= 2 && kg > 0){
+                cout << "1 dias\n";
             }
-            cout << setprecision(2) << kg << " dias" << endl;
         }
     }else{
         cout << "Insira um numero valido\n";
