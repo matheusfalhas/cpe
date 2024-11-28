@@ -4,9 +4,12 @@
 using namespace std;
 
 int main (){
-    int n, a, b, i, count = 1;
+    int n, a, b, i, u, count;
     string nome1, nome2;
-    while(cin >> n){
+    count = 1;
+    u = 0;
+    while((cin >> n) && (n > u)){
+        u = 0;
         if(n == 0)  break;
         cin >> nome1 >> nome2;
         cout << "Teste " << count << "\n";
@@ -18,6 +21,8 @@ int main (){
                 cout << nome2 << "\n";
             }
         }
+        cout << "\n";
         count++;
+        u++;
     }
 }
